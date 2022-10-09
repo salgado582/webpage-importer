@@ -1,0 +1,135 @@
+.title {
+  text-align: center ;
+}
+#resBody, #resEditBody {
+  /* height: 300px; */
+  overflow-y: scroll;
+  overflow: hidden;
+  /* width: 50%; */
+}
+
+.copiedBodies {
+  width: 100%;
+}
+#replaceWithTemplate {
+  border: 1px solid black;
+  padding: 15px;
+  height: 200px;
+  max-height: 350px;
+  overflow-y: scroll;
+}
+.blank {
+  height: 50px;
+}
+label{
+  margin-top:15px;
+  margin-bottom: 0px;
+}
+textarea .form-group {
+  width: 100%;
+}
+.form-group {
+  margin-bottom: 0px;
+}
+.templateTable .form-control {
+  height: 50px;
+}
+#metaKw{
+  /* height: 100px; */
+  overflow: hidden;
+  overflow-y: scroll;
+}
+#metaD{
+  /* height: 100px; */
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  opacity: 1;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* table */
+
+#txtTable {
+  border-collapse: collapse;
+  margin: 15px;
+}
+
+#table,
+#tableHead {
+  border: 2px solid black;
+  margin: 0px 15px;
+  text-align: center;
+}
+
+th {
+  border-left: 1px solid black;
+  padding: 0px 10px;
+  margin-bottom: 50px;
+  overflow-wrap: break-word;
+}
+
+td {
+  vertical-align: top;
+  border-left: 1px solid black;
+  padding: 0px 10px;
+  margin-bottom: 50px;
+  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+tr {
+  width: 100%;
+}
+
+#tableRow:last-child {
+  border-bottom: 1px solid black;
+}
+
+/* display images */
+td img {
+  display: none;
+}
+
+#tableRow:nth-child(n){
+  height:400px;
+}
+
+#tableRow div{
+    max-height: 100px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
